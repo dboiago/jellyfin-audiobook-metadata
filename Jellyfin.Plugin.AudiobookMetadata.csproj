@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Jellyfin.Plugin.AudiobookMetadata</RootNamespace>
+    <AssemblyName>Jellyfin.Plugin.AudiobookMetadata</AssemblyName>
+    <OutputType>Library</OutputType>
+    <PackageId>Jellyfin.Plugin.AudiobookMetadata</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Your Name</Authors>
+    <Company>Your Company</Company>
+    <Description>A Jellyfin plugin for adding metadata for audiobooks.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Jellyfin.Plugin" Version="10.8.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Jellyfin.Common\Jellyfin.Common.csproj" />
+  </ItemGroup>
+
+</Project>
